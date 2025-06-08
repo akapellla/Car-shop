@@ -1,17 +1,13 @@
 *{
-    
     margin: 0;
     font-family: "Roboto";
-   
-    
 }
 
 .container{ 
     border: 3px solid yellow;
-    
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
 }
 .header{
     padding-left: 150px;
@@ -21,8 +17,6 @@
     border: 2px solid red;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
 .header-line{
     margin-top: 10px;
@@ -34,18 +28,11 @@
 .header-links {
     display: flex;
     gap: 20px;
-    
-    
-    
-    
-    
 }
 .header-logo{
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
-    
-    
 }
 a,.header-description{
     color: #e5e7eb;
@@ -61,33 +48,18 @@ a,.header-description{
 .header-text{
     display: flex;
     margin-bottom: 100px;
-    /* border: 2px solid forestgreen; */
     height: 170px;
     justify-content: flex-start
-    
-    
-    
 }
 .header-subtext{
     display: flex;
-    
     flex-direction: column;
-    /* border: 2px solid yellowgreen; */
     width: 350px;
-    
-
-    
-    
-
 }
 .placeholder{
-    /* border: 2px solid pink; */
-    
     margin-left: 150px;
     width: 500px;
     height: 100%;
-    
-    
 }
 button{
     background-color: #3882f6;
@@ -101,7 +73,6 @@ button{
 
 .information-block{
     display: flex;
-    border: 2px solid green;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -117,36 +88,54 @@ button{
 .items{
     margin-top: 25px;
     display: flex;
-    
     justify-content: space-between;
     height: 300px;
     width: 1200px;
-    color: black;
+    color: gray;
     font-size: 18px;
-    
+    margin-bottom: 100px;
 }
 .item{
     display: flex;
     flex-direction: column;
-    
     width: 200px;
-    
-    
-    
 }
 img{
     height: 240px;
     width: 200px;
-    
 }
 .image-description{
     margin-top: 20px;
     display: flex;
-    
     justify-content: center;
 }
 .image{
     border-radius: 13px;
+    border: 3px solid blue;
+}
+.text-container{
+    display: flex;
+    border: 2px solid green;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-family: "Light Italic";
+    
+}
+.text{
+    align-self: center;
+    padding: 220px 220px 0px 220px;
+    font-size: 36px;
+    color: #52525c;
+}
+.text-author{
+    align-self: flex-end;
+    margin-right: 250px;
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
